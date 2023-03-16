@@ -1,18 +1,4 @@
 # Catcounter
+![Screenshot 2023-03-15 at 23-16-54 Catcounter · Phoenix Framework](https://user-images.githubusercontent.com/46696166/225532651-e3050dc5-411c-427e-a8ea-0ac408533855.png)
 
-To start your Phoenix server:
-
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+This is a Cat Counter using sockets made with Elixir/Phoenix and TailwindCss. 
