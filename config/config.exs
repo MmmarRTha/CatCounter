@@ -9,7 +9,7 @@ import Config
 
 # Configures the endpoint
 config :catcounter, CatcounterWeb.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "127.0.0.1"],
   render_errors: [
     formats: [html: CatcounterWeb.ErrorHTML, json: CatcounterWeb.ErrorJSON],
     layout: false
