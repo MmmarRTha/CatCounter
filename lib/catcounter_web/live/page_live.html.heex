@@ -1,20 +1,20 @@
-<div class="flex flex-col items-center justify-center h-screen bg-no-repeat bg-top"
-    style="background-image: url(/images/cat_image.png)">
-    <h1 class="text-5xl font-medium text-gray-700">Cat Counter</h1>
-    <span class="m-5 text-9xl">
+<div class="container flex flex-col items-center justify-center h-screen mx-auto -mt-10 bg-no-repeat md:mt-0">
+    <img class="mb-5 sm:-mt-32 md:mb-10" src="/images/cat_image.png" alt="cat image">
+    <h1 class="text-4xl font-medium text-gray-700 md:text-5xl">Cat Counter</h1>
+    <span class="md:m-5 text-7xl md:text-9xl">
         <%= @number %>
     </span>
 
-    <section>
-        <button phx-click="decrement" class="text-white text-4xl bg-fuchsia-600 px-6 py-4 rounded hover:bg-fuchsia-900">
+    <section class="">
+        <button phx-click="decrement" class="px-4 py-3 text-3xl text-white rounded md:text-4xl md:py-4 md:px-6 bg-fuchsia-600 hover:bg-fuchsia-900">
             -
         </button>
 
-        <button phx-click="reset" class="m-10 text-white text-4xl bg-fuchsia-900 px-6 py-4 rounded hover:bg-fuchsia-500">
-            clear
+        <button phx-click="reset" class="p-3 m-6 text-3xl text-white rounded md:mx-10 md:px-6 md:py-4 md:text-4xl bg-fuchsia-900 hover:bg-fuchsia-500">
+            Clear
         </button>
 
-        <button phx-click="increment" class="text-white text-4xl bg-fuchsia-600 px-6 py-4 rounded hover:bg-fuchsia-900">
+        <button phx-click="increment" class="px-4 py-3 text-3xl text-white rounded md:text-4xl md:py-4 md:px-6 bg-fuchsia-600 hover:bg-fuchsia-900">
             +
         </button>
     </section>
